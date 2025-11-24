@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0e0e0e;
+    color: #f2f2f2;
+    line-height: 1.6;
+}
+header {
+    background: #181818;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #00aaff;
+}
+header nav a {
+    margin: 0 20px;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+header nav a:hover {
+    color: #00aaff;
+    text-shadow: 0 0 8px #00aaff;
+}
+.logo {
+    height: 60px;
+    border-radius: 10px;
+}
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(180deg, #1b1b1b, #111);
+    border-bottom: 2px solid #00aaff;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.btn {
+    background: #00aaff;
+    padding: 14px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #0088cc;
+    box-shadow: 0 0 10px #0088cc;
+}
+.catalogo {
+    text-align: center;
+    padding: 60px;
+}
+.jogos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 40px;
+    padding: 20px;
+}
+.jogo-card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    border: 1px solid #333;
+}
+.jogo-card:hover {
+    transform: scale(1.05);
+    border-color: #00aaff;
+    box-shadow: 0 0 10px #00aaff;
+}
+.jogo-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.jogo-detalhes {
+    display: flex;
+    gap: 40px;
+    padding: 60px;
+    align-items: center;
+}
+.jogo-img {
+    width: 320px;
+    border-radius: 12px;
+    border: 2px solid #00aaff;
+}
+.preco {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #00aaff;
+}
+.contactos {
+    padding: 60px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #181818;
+    border-top: 2px solid #00aaff;
+}

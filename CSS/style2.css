@@ -1,0 +1,52 @@
+/* Estilos Gerais 
+.hero {
+text-align: center;
+padding: 100px 20px;
+background: #222;
+}
+.btn {
+background: #00aaff;
+padding: 12px 25px;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+}
+.catalogo {
+text-align: center;
+padding: 50px;
+}
+.jogos-grid {
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.jogo-card {
+background: #1a1a1a;
+width: 200px;
+padding: 15px;
+border-radius: 10px;
+text-decoration: none;
+color: #fff;
+}
+.jogo-card img {
+width: 100%;
+border-radius: 10px;
+}
+.jogo-detalhes {
+display: flex;
+gap: 30px;
+padding: 50px;
+}
+.jogo-img {
+width: 300px;
+border-radius: 10px;
+}
+.contactos {
+padding: 50px;
+text-align: center;
+}
+footer {
+text-align: center;
+padding: 20px;
+background: #1a1a1a;
+}
